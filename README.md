@@ -1,12 +1,9 @@
-# uav-image-segmentation
+# Project Description
 
-Developing an image detection (bounding box) and image segmentation (pixel mask) ML model using 200GB UAV footage dataset from RISEx competition.
+Extracting humans and cars (bounding box) from drone footage by fine tuning Yolo11 computer vision model with P2 head. 
 
-Here;s what I've tried so far:
+![Traffic Segmentation](UAV.jpg)
 
-- fine tuning "Faster R-CNN" model from PyTorch library
-- basic linear interpolation between bounding box ground truth frames
+##### Dataset
 
-  As you can see, not that crazy, just learning to use Google CoLab so I don't have to drop 4k on a 4090 lol.
-
-  Next, I'll be trying out the Yolo11 models, heard good things from my labmates.
+From the RISEx conference's competition: https://sites.google.com/view/mtsuav
